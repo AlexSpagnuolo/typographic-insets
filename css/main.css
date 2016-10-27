@@ -102,21 +102,22 @@ main > p:first-of-type::first-letter {
 
 figure {
   float: right;
-  border-top: 3px solid #333;
-  border-bottom: 3px solid #333;
   width: 300px;
   margin-right: -150px;
-  padding: 6px;
+  margin-top: -10px;
 }
 
 figure > img {
+  border-top: 3px solid #333;
   width: 300px;
-  padding: .4em .2em;
+  padding: .4em 0;
 }
 
 figcaption {
   font-style: italic;
   font-size: .875rem;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #333;
 }
 
 blockquote {
