@@ -97,22 +97,17 @@ main > p:first-of-type::first-letter {
   border-bottom: 3px solid #333;
 }
 
-.wrapper {
-  overflow: hidden;
-}
-
 figure {
   float: right;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   width: 300px;
-  margin: 0;
+  margin-right: -150px;
   padding: 6px;
 }
 
 figure > img {
   width: 300px;
-  margin: 0;
   padding: .4em .2em;
 }
 
@@ -126,6 +121,8 @@ blockquote {
   width: 300px;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
+  margin-left: -150px;
+
 }
 
 blockquote > p {
