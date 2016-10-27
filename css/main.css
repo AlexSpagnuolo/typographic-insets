@@ -87,3 +87,32 @@ footer {
 */
 
 /* Write your CSS here */
+
+html {
+  background-color: #f2f2f2;
+}
+
+main > p:first-of-type::first-letter {
+font-size: 5rem;
+color: #f2f2f2;
+font-style: normal;
+background-color: #666;
+float: left;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+figure {
+  float: right;
+}
+
+img {
+  width: 300px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: .875rem;
+}
