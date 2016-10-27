@@ -106,13 +106,32 @@ float: left;
 
 figure {
   float: right;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  width: 300px;
+  margin: 0;
+  padding: 6px;
 }
 
 img {
   width: 300px;
+  margin: 0;
+  padding: .4em .2em;
 }
 
 figcaption {
   font-style: italic;
   font-size: .875rem;
+}
+
+blockquote {
+  float: left;
+  width: 300px;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+}
+
+blockquote > p {
+  font-size: 1.5rem;
+  text-align: right;
 }
