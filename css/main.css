@@ -63,6 +63,12 @@ p {
   text-indent: 1.3em;
 }
 
+blockquote > p {
+  font-size: 1.5rem;
+  text-align: right;
+  color: #666;
+}
+
 p:first-child {
   text-indent: 0;
 }
@@ -127,10 +133,4 @@ blockquote {
   border-bottom: 3px solid #333;
   margin-left: -150px;
 
-}
-
-blockquote > p {
-  font-size: 1.5rem;
-  text-align: right;
-  color: #666;
 }
