@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-
+  background-color: #f2f2f2;
   color: #222;
   font: normal 100%/1.5 Georgia, serif;
 }
@@ -88,16 +88,14 @@ footer {
 
 /* Write your CSS here */
 
-html {
-  background-color: #f2f2f2;
-}
-
 main > p:first-of-type::first-letter {
-font-size: 5rem;
-color: #f2f2f2;
-font-style: normal;
-background-color: #666;
-float: left;
+  font-size: 5rem;
+  color: #f2f2f2;
+  font-style: normal;
+  background-color: #666;
+  float: left;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
 }
 
 .wrapper {
@@ -113,7 +111,7 @@ figure {
   padding: 6px;
 }
 
-img {
+figure > img {
   width: 300px;
   margin: 0;
   padding: .4em .2em;
@@ -134,4 +132,5 @@ blockquote {
 blockquote > p {
   font-size: 1.5rem;
   text-align: right;
+  color: #666;
 }
